@@ -12,4 +12,4 @@ if (number < 1000 && number > 99)
    Console.WriteLine(number/ 10 % 10);
 }
 else
-    Console.WriteLine("Введено не трехзначное число");
+    Console.WriteLine($"{number} -> не трехзначное");    //("Введено не трехзначное число");
